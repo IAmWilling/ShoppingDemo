@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="25dp"
+    android:background="@drawable/show"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:paddingTop="70dp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/jiaImage"
+            android:layout_marginRight="20dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@mipmap/jia" />
+    </FrameLayout>
+</FrameLayout>
